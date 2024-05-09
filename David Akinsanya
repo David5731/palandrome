@@ -1,0 +1,6 @@
+name = input("your name: ")
+reversed_name = name[::-1]
+if reversed_name == name:
+    print("it is a palendrome")
+else:
+    print("its not")
